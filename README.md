@@ -100,8 +100,25 @@ end});
 
 
 
+## AddColor
 
+```lua
+App3:AddColor({flag = "backgroundcolor", 
+color = Color3.new(), 
+callback = function(color)
 
+end});
+```
+
+## TextBox
+
+```lua
+App3:AddBox({text = "Config Name", 
+skipflag = true,
+callback = function()
+
+end});
+```
 
 
 
