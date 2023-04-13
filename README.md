@@ -56,6 +56,11 @@ App3:AddSlider{text = "Aimbot FOV",
   end}
 ```
 
+## AddBind
+```lua
+App4:AddBind({flag = "TriggerBind", key = "One"});
+```
+
 ## AddDropDown
 
 ```lua
@@ -67,19 +72,15 @@ callback = function (Value)
 
 end});
 ```
-
-
-## AddDropDown
+## AddButton
 
 ```lua
-App3:AddList({text = "Hit Box", 
-flag = "AimbotHitbox", 
-value = "Head", 
-values = {"Head", "Torso"}
-callback = function (Value)
+App3::AddButton({text = "Discord", 
+callback = function()
 
 end});
 ```
+
 ## AddButton
 
 ```lua
@@ -110,6 +111,3 @@ callback = function()
 
 end});
 ```
-
-
-
