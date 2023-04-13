@@ -89,15 +89,6 @@ callback = function()
 end});
 ```
 
-## AddButton
-
-```lua
-App3::AddButton({text = "Discord", 
-callback = function()
-
-end});
-```
-
 
 
 ## AddColor
